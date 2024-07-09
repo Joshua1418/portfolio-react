@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.headerContainer {
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0 0.2em 0 ;
+  width: 100%;
+  height: 3em;
+  padding-top: 1em;
+  position:fixed;
+}
+.photoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+}
+.photoContainer  img{
+ width: 60%;
+ border-radius: 50%;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer h2 {
+  text-align: center;
+  padding-top: 2em;
+}
+.contenuContainer {
+  text-align: center;
+  border: none;
+  padding: 1.5em;
+  margin: 2.5em;
+  border-radius: 1em;
+  background-color: rgb(225, 225, 204);
+}
+.contenuContainer p {
+  padding: 0.1em;
+}
+.buttonContainer button{
+  padding: 1em 3em;
+  font-size: 1.1em;
+  border-radius: 1em;
+  border: none;
+  background-color: rgb(194, 194, 125);
+  cursor: pointer;
+  margin: 1em;
+}
